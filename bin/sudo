@@ -1,0 +1,4 @@
+#!/bin/sh
+# Most containers do not have the sudo program installed, but this works well
+# enough.
+exec "$@"
